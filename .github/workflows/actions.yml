@@ -1,4 +1,4 @@
-name: run main.py
+name: run bot
 
 on:
   schedule:
@@ -22,4 +22,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script # run main.py
-        run: python main.py
+        run: python3 /home/runner/work/MicrosoftRewardsClaimer/MicrosoftRewardsBot.py
